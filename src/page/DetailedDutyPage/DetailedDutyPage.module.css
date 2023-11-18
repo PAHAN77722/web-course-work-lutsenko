@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.containerInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerInput > input, select {
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.containerInput > span {
+    width: 100px;
+}
+
+.personnelContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.serviceManCard {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px #333 solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.personnelTitle {
+    font-weight: 600;
+    font-size: 24px
+}
+
+.btnContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer > button {
+    border: none;
+    color: #333;
+    background: #fefefe;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+}
+
+.btnContainer > button:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 6px 6px 6px;
+    transition-duration: 300ms;
+}

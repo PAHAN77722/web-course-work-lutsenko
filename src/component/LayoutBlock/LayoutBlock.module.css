@@ -1,0 +1,7 @@
+.container{
+    background: rgba(240,240,240, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+}

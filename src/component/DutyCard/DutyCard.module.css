@@ -1,0 +1,68 @@
+.container {
+    background: #fefefe;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.servicemanCard {
+    background: #333;
+    color: #fefefe;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.personnelContainer {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.personnelContainer2 {
+    display: flex;
+    gap: 20px;
+}
+
+.topContainer {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.topContainer > * {
+    justify-self: center;
+}
+
+.fieldTitle {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.fieldValue {
+    font-weight: 200;
+}
+
+
+.controlContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.delBtn {
+    color: #333;
+    background: #fefefe;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+    border: none;
+}
+
+.delBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 6px 6px 6px;
+    transition-duration: 300ms;
+}
+
